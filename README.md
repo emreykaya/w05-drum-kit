@@ -31,5 +31,5 @@ Bu, HTML, CSS ve JavaScript kullanılarak oluşturulmuş basit bir davul kiti pr
 
 
 ### Canlı Site
-[Proje Adı](https://emreykaya.github.io/w05-drum-kit/)
+[Drum Kit](https://emreykaya.github.io/w05-drum-kit/)
 ![Proje Ekran Görüntüsü](./assets/images/screenshot.png)
