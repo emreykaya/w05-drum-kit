@@ -1,4 +1,4 @@
-# Davul Kiti Projesi
+# Patika+ Frontend Bootcamp Hafta-05 / Ödev-01  (Drum Kit)
 
 ## Genel Bakış
 Bu, HTML, CSS ve JavaScript kullanılarak oluşturulmuş basit bir davul kiti projesidir. Kullanıcılar, belirli tuşlara basarak farklı davul sesleri çalabilirler.
