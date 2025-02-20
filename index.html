@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit Project</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- JS -->
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="js/script.js"></script>
+</head>
+
+<body class="bg-slate-900 flex flex-col items-center justify-center h-screen">
+    
+    <!-- MAIN -->
+    <div class="bg-slate-800 p-6 border border-indigo-500 rounded-xl shadow-xl w-full max-w-xl flex flex-col items-center">
+        
+        <!-- HEADER -->
+        <header class="text-center">
+            <h1 class="font-bold text-5xl text-indigo-500">Play Your Dream Song</h1>
+            <p class="text-white py-7">
+                Use the <span class="animate-pulse">Q, W, E, R, T, Y, U, I, O</span> keys to unleash your imagination and play any music you desire.
+            </p>
+        </header>
+        
+        <!-- IMAGE -->
+        <section class="flex items-center justify-center mt-10">
+            <img class="w-200" src="./assets/images/drum.png" alt="drum-kit">
+        </section>
+        
+        <!-- DRUM KITS -->
+        <section class="flex justify-center items-center mt-15">
+            
+            <!-- KEY Q: TOM -->
+            <div id="tom" class="">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>Q</h5>
+                </div>
+            </div>
+            
+            <!-- KEY W: BOOM -->
+            <div id="boom" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>W</h5>
+                </div>
+            </div>
+            
+            <!-- KEY E: CLAP -->
+            <div id="clap" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>E</h5>
+                </div>
+            </div>
+            
+            <!-- KEY R: HIHAT -->
+            <div id="hihat" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>R</h5>
+                </div>
+            </div>
+            
+            <!-- KEY T: KICK -->
+            <div id="kick" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>T</h5>
+                </div>
+            </div>
+            
+            <!-- KEY Y: OPENHAT -->
+            <div id="openhat" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>Y</h5>
+                </div>
+            </div>
+            
+            <!-- KEY U: RIDE -->
+            <div id="ride" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>U</h5>
+                </div>
+            </div>
+            
+            <!-- KEY I: SNARE -->
+            <div id="snare" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>I</h5>
+                </div>
+            </div>
+            
+            <!-- KEY O: TINK -->
+            <div id="tink" class="ml-5">
+                <div class="flex justify-center items-center text-center rounded-full bg-indigo-500 w-10 h-10">
+                    <i class="fa-solid fa-fire text-2xl text-white"></i>
+                </div>
+                <div class="flex justify-center items-center text-center text-white text-xl font-bold mt-3">
+                    <h5>O</h5>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
